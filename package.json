@@ -1,0 +1,31 @@
+{
+  "name": "mychannel",
+  "version": "1.0.0",
+  "description": "A website for tv channels",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author":"Chetan Ptil",
+  "license": "MIT",
+ 
+  "engines": {
+    "node": "4.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.3",
+    "mongoose-unique-validator": "^1.0.2",
+    "morgan": "^1.7.0",
+    "password-hash": "^1.2.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6"
+  }
+}
